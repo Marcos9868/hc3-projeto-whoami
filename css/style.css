@@ -18,6 +18,8 @@ header {
   justify-content: space-around;
   align-items: center;
   padding-top: 15px;
+  padding-bottom: 10px;
+  box-shadow: 3px 3px 10px 3px darkgreen;
 }
 
 header ul {
@@ -46,6 +48,11 @@ a {
   font-weight: 500;
 }
 
+a:hover {
+  color: darkgreen;
+  transition: 200ms;
+}
+
 
 .container {
   display: flex;
@@ -53,6 +60,7 @@ a {
   align-content: center;
   justify-content: center;
   text-align: center;
+  margin-top: 100px;
 }
 
 .container .name h1 {
@@ -71,26 +79,40 @@ a {
 .form {
   width: 40%;
   margin: 0 auto;
+  box-shadow: 2px 2px 5px 5px darkgreen;
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 60px;
+}
+
+.form p {
+  margin-bottom: 15px;
 }
 
 .form input {
   width: 50%;
   height: 25px;
   padding-left: 7px;
-  border-radius: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px 0px 0px 5px;
   border: none;
 }
 
 .form button {
   width: 60px;
   height: 25px;
-  color: #101010;
-  border-radius: 10px;
+  background: linear-gradient(to right, darkgreen 50%, #101010 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  color: whitesmoke;
+  border-radius: 0px 5px 5px 0px;
+  margin-left: -5px;
   border: none;
   cursor: pointer;
+  transition: all 200ms ease-out;
 }
 
 .form button:hover {
-  background-color: #101010;
+  background-position: left bottom;
   color: whitesmoke;
 }
