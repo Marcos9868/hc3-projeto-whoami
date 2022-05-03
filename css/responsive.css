@@ -1,0 +1,44 @@
+@media only screen and (max-width: 768px) {
+  .form{
+    width: 90%;
+  }
+
+  .form input {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 480px) {  
+  header img {
+    height: 30px;
+  }
+
+  header ul li {
+    padding: 5px;
+  }
+
+  ul {
+    font-size: 15px;
+  }
+  
+  .container {
+    margin-top: 30px;
+  }
+  
+  .container .name h1 {
+    font-size: 25px;
+  }
+
+  .container .name h5 {
+    font-size: 15px;
+  }
+  
+  #about p {
+    max-width: 80%;
+    text-align: justify;
+  }
+
+  .form {
+    width: 80%;
+  }
+}
