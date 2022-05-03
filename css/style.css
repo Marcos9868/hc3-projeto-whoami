@@ -80,6 +80,7 @@ a:hover {
 
 #about {
   display: none;
+  margin-top: 15px;
 }
 
 #about p {
@@ -103,12 +104,15 @@ a:hover {
 }
 
 .form input {
+  background-color: #232323;
   width: 50%;
   height: 25px;
   padding-left: 7px;
   margin-bottom: 10px;
   border-radius: 5px 0px 0px 5px;
   border: none;
+  color: darkgreen;
+  outline: none;
 }
 
 .form button {
@@ -133,9 +137,10 @@ a:hover {
 /* Arrow */
 
 #arrow {
+  margin-top: 25px;
   font-size: 35px;
   cursor: pointer;
-  animation: blink 2s steps(5, start) infinite;
+  animation: blink 3s steps(3, start) infinite;
 }
 
 @keyframes blink {
